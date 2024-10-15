@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0dc31a7508.js" crossorigin="anonymous"></script>
+    <title>Gaurav Portfolio</title>
+</head>
+<body>
+   <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo" alt="Logo">
+            <div id="sidemenu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Marketing</p>
+            <h1>Hi, I'm Gaurav Vishwarkarma</h1>
+        </div>
+    </div>
+   </div>
+
+   <!-- About Section -->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="images/User.jpg" alt="User Image">
+            </div>
+            <div class="about-col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Recent college graduate with a Bachelor's degree in Management Studies with a specialized focus on Marketing...</p>
+
+                <!-- Tabs -->
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab(event, 'Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab(event, 'Experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab(event, 'Education')">Education</p>
+                </div>
+
+                <!-- Tab Contents -->
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>MS Office – Word, Excel, and PowerPoint</span></li>
+                        <li><span>Digital Marketing</span></li>
+                        <li><span>Social Media Management</span></li>
+                        <li><span>Canva and Logo Animation</span></li>
+                        <li><span>Video Editing</span></li>
+                        <li><span>Sales and Negotiation</span></li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>May 2024 - Aug 2024</span><br>
+                            CONCEPT & IDEAS - MARKETING EXECUTIVE<br>
+                            ▪ Efficiently managing and operating all our professional social media channels.<br>
+                            ▪ Develop and implement marketing strategies and campaigns.<br>
+                            ▪ Managing and optimizing social media as well as digital marketing strategies.
+                        </li>
+                        <li><span>Sep 2023 - Mar 2024</span><br>BMS+1 CLUB<br>
+                            ▪ Social media handling and content creation. <br>
+                            ▪ Core member of IT. 
+                        </li>
+                        <li><span>Jun 2022 - Aug 2022</span><br>HASHTAG INTERNSHIP - INTERN <br>
+                            ▪ Sales intern. <br>
+                            ▪ Managing client’s portfolio.  
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>2024</span><br>BMS from Mumbai University </li>
+                        <li><span>2021</span><br>HSC from Maharashtra Board </li>
+                        <li><span>2019</span><br>SSC from Maharashtra Board </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- Services -->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-people-group"></i>
+                <h2>Digital Marketing</h2><br>
+                <p><i>Drive growth through strategic online marketing </i><br><br> I help businesses enhance their digital presence with targeted marketing strategies. From SEO optimization and paid advertising (PPC) to email marketing and content creation, I tailor campaigns that align with your goals and drive measurable results. Let’s work together to boost your brand’s visibility and convert visitors into loyal customers.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-hashtag"></i>
+                <h2>Social Media Management</h2><br>
+                <p><i>Engage, grow, and elevate your brand’s online presence.</i><br><br>
+                    I specialize in crafting and managing impactful social media strategies. From content planning to audience engagement, I ensure your brand stays active and relevant across platforms like Instagram, Facebook, and LinkedIn. Consistency and creativity are the keys to building a loyal online community, and I can help you achieve just that.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h2> Canva Design & Logo Animation</h2><br>
+                <p><i>Stand out with stunning visuals and creative animations.</i><br><br>
+                    I design beautiful graphics and marketing materials using Canva, perfect for both digital and print needs. Whether it’s a polished logo animation or professional infographics, I ensure your brand’s visual identity is memorable and engaging. Animated logos add a modern, eye-catching element that can enhance your online presence.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-video"></i>
+                <h2> Video Editing</h2><br>
+                <p><i>Bring your stories to life through professional video editing.</i><br><br>
+                    High-quality videos are essential in today’s digital world. From promotional videos to social media clips, I offer seamless video editing services with attention to detail. With smooth transitions, precise cuts, and captivating visuals, I help you tell your brand’s story effectively and keep your audience engaged.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio -->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg" alt="">
+                <div class="layer">
+                    <h3>POP LOLLIES</h3>
+                    <p><b>POP LOLLIES</b> is a candy brand offering a variety of 6-7 candy flavors and 4 different lollipop flavors. Initially launched a week ago, it saw steady growth, targeting children, teens, and even adults who want to relive their childhood. The brand focuses on personal selling, social media marketing, and promotions to build awareness and expand its reach.
+                       <br>Currently, the brand is not active. This project aims to rebuild the brand from scratch</p>
+                    <a href="images/POP LOLLIES.pdf" download ><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png" alt="">
+                <div class="layer">
+                    <h3></h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" alt="">
+                <div class="layer">
+                    <h3></h3>
+                    <p></p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+   <!-- Contact Section -->
+   <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>gauravvish2030@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7738104233</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/.gauraavvv_?igsh=OThldzRobmZjamtv" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/gaurav-vishwakarma30?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form  name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright © gaurav.</p>
+        </div>
+    </div>
+    
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(event, tabname) {
+        for (let i = 0; i < tabcontents.length; i++) {
+            tabcontents[i].style.display = "none"; 
+            tabcontents[i].classList.remove("active-tab"); 
+        }
+
+        for (let i = 0; i < tablinks.length; i++) {
+            tablinks[i].classList.remove("active-link");
+        }
+        event.currentTarget.classList.add("active-link");
+
+        document.getElementById(tabname).style.display = "block"; 
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";  
+    }
+    
+    function closemenu() {
+        sidemenu.style.right = "-200px";  
+    }
+    
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwgLqBWoG-KRqkvbjQ2jigvdyWzWjSWAQ4Ci6v22ecsyNCaQRUny_meP7sH6BOAeddRXw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = " "
+            },5000)
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
